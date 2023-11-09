@@ -1,0 +1,160 @@
+repo_name: donaldww/language
+report_id: 4c9942b7c0a848fafbe587e29ec27115
+repo_type: Public
+timestamp: '2023-11-09T17:23:26+00:00'
+requested_by: jakemac53
+provider: github
+branch: main
+detected_tools_count: 13
+tools:
+- name: Dart
+  description: A new web programming language with libraries, a virtual machine, and
+    tools
+  website_url: https://www.dartlang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1646/Twitter-02.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: working/macros/example/pubspec.yaml
+  last_updated_by: Jake Macdonald
+  last_updated_on: 2022-03-14 19:45:42.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/no-response.yml"
+  last_updated_by: Devon Carew
+  last_updated_on: 2023-06-07 23:43:09.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: working/macros/example/pubspec.yaml
+  last_updated_by: Jake Macdonald
+  last_updated_on: 2022-03-14 19:45:42.000000000 Z
+- name: test
+  website_url: test
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/5477/no-img-open-source.png
+  detection_source: accepted/future-releases/0546-patterns/exhaustiveness_prototype/pubspec.yaml
+  last_updated_by: Robert Nystrom
+  last_updated_on: 2022-03-21 17:25:51.000000000 Z
+- name: _fe_analyzer_shared
+  description: Logic that is shared between the front_end and analyzer packages
+  package_url: https://pub.dartlang.org/_fe_analyzer_shared
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: working/macros/example/pubspec.yaml
+  last_updated_by: Jake Macdonald
+  last_updated_on: 2022-06-10 15:07:23.000000000 Z
+- name: args
+  description: Library for defining parsers for parsing raw command-line arguments
+    into a set of options and values using GNU and POSIX style options
+  package_url: https://pub.dartlang.org/args
+  version: 2.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: working/macros/example/pubspec.yaml
+  detection_source: working/macros/example/pubspec.yaml
+  last_updated_by: Jake Macdonald
+  last_updated_on: 2022-03-14 19:45:42.000000000 Z
+- name: benchmark_harness
+  description: The official Dart project benchmark harness
+  package_url: https://pub.dartlang.org/benchmark_harness
+  version: 2.2.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: working/macros/example/pubspec.yaml
+  detection_source: working/macros/example/pubspec.yaml
+  last_updated_by: Jacob MacDonald
+  last_updated_on: 2023-05-01 16:31:22.000000000 Z
+- name: convert
+  description: Utilities for converting between data representations
+  package_url: https://pub.dartlang.org/convert
+  version: 3.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: specification/pubspec.yaml
+  detection_source: specification/pubspec.yaml
+  last_updated_by: Jacob MacDonald
+  last_updated_on: 2021-08-06 15:09:39.000000000 Z
+- name: crypto
+  description: Implementations of SHA
+  package_url: https://pub.dartlang.org/crypto
+  version: 3.0.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: specification/pubspec.yaml
+  detection_source: specification/pubspec.yaml
+  last_updated_by: Jacob MacDonald
+  last_updated_on: 2021-08-06 15:09:39.000000000 Z
+- name: dart_style
+  description: Opinionated, automatic Dart source code formatter
+  package_url: https://pub.dartlang.org/dart_style
+  version: 2.2.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: working/macros/example/pubspec.yaml
+  detection_source: working/macros/example/pubspec.yaml
+  last_updated_by: Jacob MacDonald
+  last_updated_on: 2023-04-20 19:37:34.000000000 Z
+- name: test
+  description: A full featured library for writing and running Dart tests across platforms
+  package_url: https://pub.dartlang.org/test
+  version: 1.20.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: accepted/future-releases/0546-patterns/exhaustiveness_prototype/pubspec.yaml
+  detection_source: accepted/future-releases/0546-patterns/exhaustiveness_prototype/pubspec.yaml
+  last_updated_by: Robert Nystrom
+  last_updated_on: 2022-03-21 17:25:51.000000000 Z
